@@ -123,6 +123,21 @@ header>p{
     font-size: 14px;
 }
 
+/* ---------------
+    Section-three
+    --------------*/
+
+.section-three{
+    display: flex;
+   margin: 120px 10% 0 120px;
+}
+
+
+.section-three> .second{
+    margin-left: 25px;
+    width: 100%;
+}
+
 /* --------------
     Footer
  ---------------- */
@@ -234,6 +249,10 @@ header>p{
 }
 .rating-text{
     font-size: 14px;
+}
+
+.section-three{
+    flex-direction: column;
 }
 
  }
